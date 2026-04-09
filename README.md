@@ -22,19 +22,20 @@ RedPulse is an AI-powered heart disease risk prediction system built using Machi
 
 * Algorithm: K-Nearest Neighbors (KNN)
 * Preprocessing: StandardScaler
-* Input Features:
 
-  * Age
-  * Sex
-  * Chest Pain Type
-  * Resting Blood Pressure
-  * Cholesterol
-  * Fasting Blood Sugar
-  * Resting ECG
-  * Max Heart Rate
-  * Exercise-induced Angina
-  * Oldpeak
-  * ST Slope
+### Input Features:
+
+* Age
+* Sex
+* Chest Pain Type
+* Resting Blood Pressure
+* Cholesterol
+* Fasting Blood Sugar
+* Resting ECG
+* Max Heart Rate
+* Exercise-induced Angina
+* Oldpeak
+* ST Slope
 
 ---
 
@@ -44,12 +45,10 @@ RedPulse is an AI-powered heart disease risk prediction system built using Machi
 RedPulse/
 │
 ├── app.py
-├── model/
-│   ├── KNN_heart.pkl
-│   ├── scaler.pkl
-│   └── columns.pkl
-├── assets/
-│   └── style.css
+├── KNN_heart.pkl
+├── scaler.pkl
+├── columns.pkl
+├── requirements.txt
 └── README.md
 ```
 
@@ -106,7 +105,7 @@ This project is for educational purposes only and should not be used as a substi
 
 ## 👨‍💻 Author
 
-Devansh Tiwari
+**Devansh Kumar Tiwari**
 
 ---
 
